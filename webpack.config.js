@@ -27,7 +27,14 @@ module.exports = {
             // style and css extract
             {
                 test: [/.css$|.scss$/],
-                use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader',
+                    {
+                        loader: 'postcss-loader',
+                    },
+                ],
             },
             // image file loader
             {
@@ -38,6 +45,7 @@ module.exports = {
                         options: {
                             name: '[name].[ext]',
                             outputPath: 'assets/img/',
+                            publicPath: '../img/',
                         },
                     },
                 ],
@@ -51,6 +59,7 @@ module.exports = {
                         options: {
                             name: '[name].[ext]',
                             outputPath: 'assets/fonts/',
+                            publicPath: '../fonts',
                         },
                     },
                 ],

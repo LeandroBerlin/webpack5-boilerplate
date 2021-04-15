@@ -22,6 +22,6 @@ window.addEventListener(
 
 const filename = logoImg.substring(logoImg.lastIndexOf('/') + 1);
 const logo = `assets/img/${filename}`;
-console.log(logo);
+
 const message = 'Hello Webpack';
 console.log(` Message is: ${message}`);
