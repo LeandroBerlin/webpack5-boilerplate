@@ -1,0 +1,2 @@
+!function(){"use strict";var e="../img/logo.png";const t={toggle:"toggle",show:"add",hide:"remove"};window.addEventListener("click",(e=>{((e,o)=>{document.querySelector(e).classList[t[o]]("show")})(e.target.getAttribute("data-target"),"toggle")}),!1);const o=e.substring(e.lastIndexOf("/")+1);document.querySelector("#logo").src=`assets/img/${o}`;console.log(" Message is: Hello Webpack")}();
+//# sourceMappingURL=bundle.js.map
