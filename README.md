@@ -12,7 +12,6 @@ A [Webpack 5](https://webpack.js.org/) boilerplate with build-in:
 - CSS extraction into a single file using [style-loader](https://github.com/webpack-contrib/style-loader), [css-loader](https://github.com/webpack-contrib/css-loader) and [css-mini-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) 
 - SCSS support using [sass-loader](https://github.com/webpack-contrib/sass-loader) and [node-sass](https://github.com/sass/node-sass).
 - Images import with [file-loader](https://github.com/webpack-contrib/file-loader)
-- Optimization/Minification with [uglifyjs-webpack-plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) and [optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin). 
 - [Bootstrap](https://getbootstrap.com/) SCSS and [Fontawesome](https://fontawesome.com) local fonts support
 - Github Pages publishing using [gh-pages](https://www.npmjs.com/package/gh-pages)
 - Use aliases for easy imports
