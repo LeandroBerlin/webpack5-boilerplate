@@ -19,7 +19,7 @@ A [Webpack 5](https://webpack.js.org/) boilerplate with build-in:
 - [ESlint](https://eslint.org/) linting
 
   
-[DEMO](https://leandrodci.github.io/webpack5-boilerplate/)
+[DEMO](https://leandroberlin.github.io/webpack5-boilerplate/)
   
 ## Get Started
 
@@ -77,7 +77,7 @@ npm run build
 
 #### Deploy to Github Pages
 
-Deploy your code to **Github Pages**: this script creates a 'gh-pages' branch and serve the production bundle to this branch (ie. [https://leandrodci.github.io/webpack5-boilerplate/](https://leandrodci.github.io/webpack5-boilerplate/))
+Deploy your code to **Github Pages**: this script creates a 'gh-pages' branch and serve the production bundle to this branch (ie. [https://leandroberlin.github.io/webpack5-boilerplate/](https://leandroberlin.github.io/webpack5-boilerplate/))
 
 ```
 npm deploy
@@ -92,7 +92,7 @@ Create a directory for your new project, clone this repository, install the requ
 
 ```
 mkdir myNewProject && cd myNewProject
-clone https://github.com/LeandroDCI/webpack4-boilerplate .
+clone https://leandroberlin.github.io/webpack5-boilerplate/.
 npm i
 npm run dev
 ```
